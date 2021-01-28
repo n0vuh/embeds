@@ -11,4 +11,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: actTitle, desc: actDescription, color: req.query.color, image: req.query.image});
 });
 
+app.use((err, req, res, next) => {
+  console.error(err.stack)
+  res.status(500).sendFile(path.join(__dirname, '/public/500.html'))
+})
+
 module.exports = router;
