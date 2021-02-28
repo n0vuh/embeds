@@ -4,7 +4,7 @@
 
 # Discord embeds using EJS and Express
 **Usage Example:**
-![Example](https://i.imgur.com/agFEWmz.png)
+![Example](https://i.imgur.com/LTLC0Uc.png)
 
 ## URL & Options
 - Base URL is https://embed.novuh.dev/
@@ -15,5 +15,5 @@
 - `+` and `%20` represent spaces. i.e: embed.novuh.dev/?title=title&desc=description+here%20space
 
 ## Important Notes
-- **This is not sanitized internally, you must use a passenger system such as phusion for safety and XSS prevention.**
+- **Symbols are escaped automatically, however please use a WSGI/Passenger system such as Phusion for better safety.**
 - **Please credit me or consider donating, thank you.**
