@@ -1,8 +1,5 @@
-❤️ **Donations keep me making free content for all!**
-
-❤️ Donate: bc1q0647tkqcv28ddx3v2j6dppqc30xllpjxs6h8aa (bitcoin)
-
 # Discord embeds using EJS and Express
+[![Coverage Status](https://coveralls.io/repos/github/n0vuh/embeds/badge.svg?branch=main)](https://coveralls.io/github/n0vuh/embeds?branch=main)
 **Usage Example:**
 ![Example](https://i.imgur.com/LTLC0Uc.png)
 
